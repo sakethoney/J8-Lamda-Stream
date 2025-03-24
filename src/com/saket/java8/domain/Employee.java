@@ -43,6 +43,11 @@ public class Employee {
 		setCity(city);
 	}
 
+	public Employee(String name, String department) {
+		setName(name);
+		setDepartment(department);
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -74,6 +79,7 @@ public class Employee {
 	public Manager getManager() {
 		return manager;
 	}
+
 
 	@Override
 	public String toString() {
